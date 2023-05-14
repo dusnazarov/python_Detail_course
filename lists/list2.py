@@ -1,0 +1,35 @@
+# ///////////////////////////
+matrix=[
+    [1,2,3],
+    [4,5,6],
+    [7,8,9]
+]
+print(matrix)
+
+matrix[1][0]=5
+matrix[0]=[4,5,6]
+print(matrix)
+
+#////////////////////////////
+# matrix=[
+#     [1,2,3],
+#     [4,5,6],
+#     [7,8,9]
+
+# ]
+
+# for row in matrix:
+#     print(row)
+
+#////////////////////////
+# matrix=[
+#     [1,2,3],
+#     [4,5,6],
+#     [7,8,9]
+
+# ]
+
+# for row in matrix:
+#     for item in row:
+#         print(item)
+
