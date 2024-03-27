@@ -3,24 +3,24 @@
 # for x in fruits:
 #   print(x) 
  
-#/////////////////////////////////////////////
+#////////////////  break  /////////////////////////////
 # fruits = ["apple", "banana", "cherry","orange"]
 
 # for x in fruits:
 #   print(x) 
-#   if x == "banana":
+#   if x == "banana":   
 #     break
 
-#////////////////////////////////////////////////////
+#///////////////   continue  /////////////////////////////////////
 # fruits = ["apple", "banana", "cherry", "orange"]
 # for x in fruits:
 #   if x == "banana":
 #     continue
 #   print(x) 
 
-#////////////////////////////
-# for x in range(6):
-#   print(x) 
+#///////// range ///////////////////
+# for x in range(6):    
+#     print(x) 
 
 #////////////////////////////////////
 # for x in range(2, 6):
@@ -39,17 +39,17 @@
 #//////////////////////////////////////////
 # s=1+2+3+...+9 yig'indisi.
 # list=[1,2,3,4,5,6,7,8,9]
-# # list=(1,2,3,4,5,6,7,8,9)
+# list=(1,2,3,4,5,6,7,8,9)
 # s=0
-# for i in list:
-#     s=s+i
-  
+# for i in list:   
+#     s = s + i
+       
 # print(s)
 
 #///////////////////////////////////////////
 # s=0
 # for i in range(10):
-#     s=s+i
+#     s = s + i
   
 # print(s)
 
@@ -70,7 +70,7 @@
 
 
 #//////////////////////////////////
-# numbers=[5,2,5,2,2]
+# numbers = [5, 2, 5, 2, 2]
 # for num in numbers:
 #     print('x'*num)
 
@@ -84,25 +84,25 @@
 
 # output=''
 # for count in range(5):
-#     output+='x'
+#     output += 'x'
 # print(output)
 
 # output=''
 # for count in range(2):
-#     output+='x'
+#     output += 'x'
 # print(output)
 
 # output=''
 # for count in range(5):
-#     output+='x'
+#     output += 'x'
 # print(output)
 
 # output=''
 # for count in range(2):
-#     output+='x'
+#     output += 'x'
 # print(output)
 
 # output=''
 # for count in range(2):
-#     output+='x'
+#     output += 'x'
 # print(output)
