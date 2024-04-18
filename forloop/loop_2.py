@@ -79,11 +79,11 @@
 # print(total_list)
 
 #////////////////////////////////////
-list=[2,3,5,4,8,7,4,4,4,2,2,5]
+# list=[2,3,5,4,8,7,4,4,4,2,2,5]
 
-gen_list=[]
+# gen_list=[]
 
-for i in list:
-    if i not in gen_list:
-        gen_list.append(i)
-print(gen_list)
+# for i in list:
+#     if i not in gen_list:
+#         gen_list.append(i)
+# print(gen_list)

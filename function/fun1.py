@@ -40,48 +40,130 @@
 # result1,result2,result3=add_sub(3,8)
 # print(result1,result2,result3)
 
+
 #////////////////////////////
 # def greet(name,lname):
 #     print(f'Hi {name} {lname}')
 
 # greet('John','Smith')
 
-# def greet(name):
-#     print(f'Hi {name}')
-
-# greet('Mosh')
-# print(greet('Mosh'))
-
-# context = {'name': 'John', 'lname': 'Smith', 'age': 26}
-# print(context['name'])
-# print(context['lname'])
-# print(context['age'])
-# print(context)
-
-
+#////////////////////////////
 # context = {}
-# def greet(name,lname, age):   
+# def add_person(name,lname, age):   
 #     context['name'] = name
 #     context['lname'] = lname 
 #     context['age'] = age   
    
 #     print(context)
 
-# greet('John','Smith',25)
+# add_person('John','Smith',25)
 
+#////////////////////////////
+
+# context = {}
+# def add_person(name, lname, age):   
+#     context['name'] = name
+#     context['lname'] = lname 
+#     context['age'] = age   
+#     return context  
+
+# # print(add_person('John','Smith',25))
+# add_person('John','Smith',25)
+
+# for i in context.values():
+#     print(i)
+
+#////////////////////////////
 # name = 'John'
 # lname = 'Smith'
 # age = 26
+
 # context = {}
-# def greet():   
+
+# def add_person():   
 #     context['name'] = name
 #     context['lname'] = lname 
-#     context['age'] = age   
-   
-#     print(context)
+#     context['age'] = age
+#     return context 
 
-# greet()
+# add_person()
 
+# for i in context.values():
+#     print(i)
+
+# #////////////////////////////
+# persons = []
+
+# def add_person(name, lname, age):
+    
+
+#     person = {
+#             "name": name,
+#             "lname": lname,
+#             "age": age
+#         }   
+#     persons.append(person)
+#     return persons 
+
+# add_person('Elyor','Dusnazarov', 25)
+# add_person('Mohinur','Qodirova', 24)
+# add_person('Nilufar','Muminjonova', 8)
+# add_person('Ahror','Muminjonov', 24)
+
+# print(persons)
+
+# for i in persons:
+#     print(i)
+
+
+#////////////////////////////
+# names = ['Elyor', 'Mohinur', 'Nilufar','Ahror']
+# lnames = ['Dusnazarov', 'Qodirova', 'Muminjonova', 'Muminjonov']
+# ages = [24, 23, 8, 6]
+
+# persons = []
+
+# def add_person(n):
+#     for i in range(n):
+#         person = {
+#             "name": names[i],
+#             "lname": lnames[i],
+#             "age": ages[i]
+#         }   
+#         persons.append(person)
+
+#     return persons 
+
+# add_person(4)
+
+# print(persons)
+
+# for i in persons:
+#     print(i)
+
+# # //////////// function ////////////////////////
+# import random
+
+# names = ['John', 'Elyor', 'Adam', 'Umid', 'Shuhrat', 'Muhtasar']
+# majors = ['Math', 'Engineering', 'CompSci', 'Arts', 'Business']
+
+
+# def people_list(num_people):
+#     result = []
+#     for i in range(num_people):
+#         person = {
+#                     'id': i,
+#                     'name': random.choice(names),
+#                     'major': random.choice(majors)
+#                 }
+#         result.append(person)
+#     return result
+
+
+# people_list = people_list(4)
+
+# for people in people_list:
+#     print(people)
 
 
 
