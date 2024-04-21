@@ -7,11 +7,12 @@ import sys
 # print(sys.getsizeof(x))
 # print(sys.getsizeof(range(1, 10)))
 
-# # for i in x:
-# #     print(i)
+# for i in x:
+#     print(i)
 
-# # for i in range(1, 10):
-# #     print(i)
+# for i in range(1, 10):
+#     print(i)
+
 
 
 # # //////////////////////////////////////
@@ -22,6 +23,7 @@ import sys
 
 # for i in y:
 #     print(i)
+
 
 # # //////////////////////////////////////
 
@@ -70,7 +72,7 @@ import sys
 #     print(i)
 
 
-# # //////////////Generate //////////////////////
+# # # //////////////Generate //////////////////////
 
 # def gen(n):
 #     for i in range(n):
@@ -80,6 +82,7 @@ import sys
 
 # for i in x:
 #     print(i)
+
 
 # # //////////////Generate //////////////////////
 
@@ -184,19 +187,19 @@ import sys
 
 # //////////////////////
 
-import time
+# import time
 
-def my_generator(x=1):
-    while True:
-        yield x
-        x += 1
+# def my_generator(x=1):
+#     while True:
+#         yield x
+#         x += 1
 
-gene = my_generator()
-print(type(gene))
+# gene = my_generator()
+# print(type(gene))
 
-for i in gene:
-    print(i, end='')
-    time.sleep(0.5)
+# for i in gene:
+#     print(i, end='')
+#     time.sleep(0.5)
 
 
     

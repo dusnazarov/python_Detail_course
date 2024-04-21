@@ -166,7 +166,176 @@
 #     print(people)
 
 
+#///////////////////////////////////
 
+# def get_sqrt(x):
+#     if x < 0:
+#         return None
+#     res = x**0.5    
+#     return res 
+
+
+# # def get_sqrt(x):
+# #     res = None if x < 0 else x**0.5
+# #     return res
+    
+
+# a = get_sqrt(16)
+# print(a)
+
+#///////////////////////////////////
+# def get_sqrt(x):
+#     res = None if x < 0 else x**0.5
+#     return res, x
+
+
+# a, b = get_sqrt(16)
+# print(a, b)
+
+#///////////////////////////////////
+# def get_max(a, b):
+#     return a if a > b else b
+
+
+# x, y = 5, 7
+# print(get_max(x, y))
+
+#///////////////////////////////////
+# def get_max(a, b):
+#     return a if a > b else b
+
+
+# x, y, z = 5, 7, 10
+# print(get_max(y, z))
+# print(get_max(x, get_max(y, z)))
+
+#///////////////////////////////////
+# def get_max(a, b):
+#     return a if a > b else b
+
+# def get_max2(a, b, c):
+#     return get_max(a, get_max(b, c))
+
+
+# x, y, z = 5, 7, 10
+# print(get_max2(x, y, z))
+
+#///////////////////////////////////
+
+# PERIMETR = False
+
+# if PERIMETR:
+#     def get_rect(a, b):
+#         return 2 * (a + b)
+
+# else:
+#     def get_rect(a, b):
+#         return a * b
+
+# print(get_rect(1.5, 2.8))   
+
+# /////////////////////////////////
+# def even(x):
+#     # if x == 0:
+#     #   return None   
+#     # return x % 2 == 0
+
+#     return None if x == 0 else x % 2 == 0
+
+# for i in range(5):   
+#    print(even(i))
+
+#////////////////////////////////
+# def even(x):
+       
+#     if x == 0:
+#        return None
+#     return x % 2 == 0
+
+#     # return None if x == 0 else x % 2 == 0  
+   
+
+# for i in range(10):
+#     if even(i):
+#       print(i)
+      
+
+# #///////////////////////////////////
+# def get_V(a, b, c):
+#     print(f'a = {a}, b = {b}, c = {c}')
+
+#     return a * b *c
+
+# # v = get_V(1, 2, 3)
+# v = get_V(b=1, a=2, c=3)
+# print(v)
+
+
+#///////////////////////////////////
+# def get_V(a, b, c, verbose=False):
+#     if verbose:
+#         print(f'a = {a}, b = {b}, c = {c}')
+
+#     return a * b *c
+
+# # v = get_V(1, 2, 3)
+# v = get_V(b=1, a=2, c=3)
+# print(v)
+
+
+# #///////////////////////////////////
+# def add_value(value, lst=[]):
+#     lst.append(value)
+#     return lst
+
+# l = add_value(1)
+# l = add_value(2)
+# print(l)
+
+
+# #///////////////////////////////////
+# def add_value(value, lst=None):
+#     if lst is None:
+#         print(lst is None)
+#         lst = []
+#     lst.append(value)
+#     return lst
+
+# l = add_value(1)
+# l = add_value(2,l)
+# print(l)
+
+# #///////////////////////////////////
+
+# def os_path(*args):
+#     print(args)
+
+# os_path("F:\\~stepik.org","Dobri, Dobriy Python"," 39\\p39. Funksiy.docx")
+
+#///////////////////////////////////
+
+# def os_path(*args):
+#     path = "\\".join(args)
+#     return path
+
+
+# p = os_path("F:\\~stepik.org","Dobri, Dobriy Python"," 39\\p39. Funksiy.docx")
+# print(p)
+
+
+
+#///////////////////////////////////
+def os_path(*args, **kwargs):   
+    path = kwargs['sep'].join(args)
+    return path
+
+
+p = os_path("F:\\~stepik.org",
+            "Dobri, Dobriy Python",
+            " 39\\p39. Funksiy.docx",
+            sep='/', trim=True
+            )
+print(p)
 
 
 

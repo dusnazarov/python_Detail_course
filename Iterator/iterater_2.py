@@ -9,7 +9,6 @@
 # print(dir(iter_nums))
 
 # # ////////////////////////////
-
 # class MyRange:
 
 #     def __init__(self, start, end):
@@ -27,35 +26,14 @@
 #         return current
         
 # nums = MyRange(1, 10)
+# # print(next(nums))
+# # print(next(nums))
+# # print(next(nums))
+# # print(next(nums))
+# # print(next(nums))
 
 # for num in nums:
 #     print(num)
-
-# # ////////////////////////////
-
-# class MyRange:
-
-#     def __init__(self, start, end):
-#         self.start = start
-#         self.end = end
-
-#     def __iter__(self):
-#         return self
-    
-#     def __next__(self):
-#         if self.start >= self.end:
-#             raise StopIteration
-#         current = self.start
-#         self.start += 1
-#         return current
-        
-# nums = MyRange(1, 10)
-
-# print(next(nums))
-# print(next(nums))
-# print(next(nums))
-# print(next(nums))
-# print(next(nums))
 
 # # ///////// Generation ///////////////////////////
 
@@ -67,24 +45,12 @@
 
 # nums = my_range(1, 10)
 
-# print(next(nums))
-# print(next(nums))
-# print(next(nums))
-
-
-# # ////////  Generation    //////////////////////
-
-# def my_range(start, end):
-#     current = start
-#     while current < end:
-#         yield current
-#         current += 1
-
-# nums = my_range(1, 10)
+# # print(next(nums))
+# # print(next(nums))
+# # print(next(nums))
 
 # for num in nums:
 #     print(num)
-
 
 #////////////////////////////////////
 # class Sentence:
@@ -110,8 +76,7 @@
 # for word in my_sentence:
 #     print(word)
 
-
-# ///////////// function ///////////////////////
+# ///////////// generation ///////////////////////
 
 # def sentence(sentence):
 #     for word in sentence.split():
@@ -119,11 +84,10 @@
 
 # my_sentence = sentence('This is a test')
 
-# for word in my_sentence:
-#     print(word)
+
+# for i in my_sentence:
+#     print(i)
         
-
-
 
     
 

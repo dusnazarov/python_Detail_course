@@ -8,23 +8,15 @@
 
 # nums = my_range(1, 10)
 
-# print(next(nums))
-# print(next(nums))
-# print(next(nums))
-
-
-# # ////////////////////////////////////
-
-# def my_range(start, end):
-#     current = start
-#     while current < end:
-#         yield current
-#         current += 1
-
-# nums = my_range(1, 10)
+# # print(next(nums))
+# # print(next(nums))
+# # print(next(nums))
 
 # for num in nums:
 #     print(num)
+
+
+
 
 # //////////////Generate //////////////////////
 
@@ -39,7 +31,6 @@
 
 
 # //////////////Generate //////////////////////
-
 # def gen(n):
 #     for i in range(n):
 #         yield i
@@ -60,7 +51,18 @@
 # print(my_nums)
 
 
-# # ////////////// Generate //////////////////////
+# # ////////////// Function //////////////////////
+
+# def square_numbers(nums):
+#     result = nums[0]
+    
+#     return result
+# list = [1,2,3,4,5]
+# my_nums = square_numbers(list)
+# print(my_nums)
+
+
+# # # ////////////// Generate //////////////////////
 # def square_numbers(nums): 
 #     for i in nums:
 #         yield (i*i)        
@@ -145,13 +147,13 @@
 
 
 # import string library function 
-import string 
+# import string 
    
-# Storing the value in variable result 
-result = string.ascii_lowercase
+# # Storing the value in variable result 
+# result = string.ascii_lowercase
    
-# Printing the value 
-print(result) 
+# # Printing the value 
+# print(result) 
 
 
 
